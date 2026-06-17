@@ -62,30 +62,45 @@ def calculate_alpha_regions(df):
             "Rel_Alpha": df.loc[frontal, "Rel_Alpha"].mean(),
             "Rel_Beta": df.loc[frontal, "Rel_Beta"].mean(),
             "Rel_Theta": df.loc[frontal, "Rel_Theta"].mean(),
+            "Alpha_Beta_Ratio": df.loc[frontal, "Alpha_Beta_Ratio"].mean(),
+            "Theta_Alpha_Ratio": df.loc[frontal, "Theta_Alpha_Ratio"].mean(),
+            "Theta_Beta_Ratio": df.loc[frontal, "Theta_Beta_Ratio"].mean()
         },
         {
             "Region": "Central",
             "Rel_Alpha": df.loc[central, "Rel_Alpha"].mean(),
             "Rel_Beta": df.loc[central, "Rel_Beta"].mean(),
             "Rel_Theta": df.loc[central, "Rel_Theta"].mean(),
+            "Alpha_Beta_Ratio": df.loc[central, "Alpha_Beta_Ratio"].mean(),
+            "Theta_Alpha_Ratio": df.loc[central, "Theta_Alpha_Ratio"].mean(),
+            "Theta_Beta_Ratio": df.loc[central, "Theta_Beta_Ratio"].mean()
         },
         {
             "Region": "Parietal",
             "Rel_Alpha": df.loc[parietal, "Rel_Alpha"].mean(),
             "Rel_Beta": df.loc[parietal, "Rel_Beta"].mean(),
             "Rel_Theta": df.loc[parietal, "Rel_Theta"].mean(),
+            "Alpha_Beta_Ratio": df.loc[parietal, "Alpha_Beta_Ratio"].mean(),
+            "Theta_Alpha_Ratio": df.loc[parietal, "Theta_Alpha_Ratio"].mean(),
+            "Theta_Beta_Ratio": df.loc[parietal, "Theta_Beta_Ratio"].mean()
         },
         {
             "Region": "Occipital",
             "Rel_Alpha": df.loc[occipital, "Rel_Alpha"].mean(),
             "Rel_Beta": df.loc[occipital, "Rel_Beta"].mean(),
             "Rel_Theta": df.loc[occipital, "Rel_Theta"].mean(),
+            "Alpha_Beta_Ratio": df.loc[occipital, "Alpha_Beta_Ratio"].mean(),
+            "Theta_Alpha_Ratio": df.loc[occipital, "Theta_Alpha_Ratio"].mean(),
+            "Theta_Beta_Ratio": df.loc[occipital, "Theta_Beta_Ratio"].mean()
         },
         {
             "Region": "Temporal",
             "Rel_Alpha": df.loc[temporal, "Rel_Alpha"].mean(),
             "Rel_Beta": df.loc[temporal, "Rel_Beta"].mean(),
             "Rel_Theta": df.loc[temporal, "Rel_Theta"].mean(),
+            "Alpha_Beta_Ratio": df.loc[temporal, "Alpha_Beta_Ratio"].mean(),
+            "Theta_Alpha_Ratio": df.loc[temporal, "Theta_Alpha_Ratio"].mean(),
+            "Theta_Beta_Ratio": df.loc[temporal, "Theta_Beta_Ratio"].mean()
         }
     ]
 

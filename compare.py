@@ -84,13 +84,13 @@ def compare_qeeg_states(df1, df2, fs=128, channel="FP2-F4"):
         return a / b if b else np.nan
 
     ratios = {
-        "Alpha_Beta_Calmness_Index": safe_ratio(
+        "Alpha_Beta_Ratio": safe_ratio(
             meditation_results["Alpha_Beta_Ratio"], baseline_results["Alpha_Beta_Ratio"]
         ),
-        "Theta_Alpha_DeepState": safe_ratio(
+        "Theta_Alpha_Ratio": safe_ratio(
             meditation_results["Theta_Alpha_Ratio"], baseline_results["Theta_Alpha_Ratio"]
         ),
-        "Theta_Beta_Focus": safe_ratio(
+        "Theta_Beta_Ratio": safe_ratio(
             meditation_results["Theta_Beta_Ratio"], baseline_results["Theta_Beta_Ratio"]
         ),
     }
